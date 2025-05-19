@@ -2,7 +2,7 @@
 name = "requick"
 version = "0.1.0"
 description = "HTTP file generator for Django APIs"
-authors = [{name = "Your Name"}]
+authors = [{ name = "Your Name" }]
 dependencies = [
     "click",
     "faker",
@@ -10,4 +10,8 @@ dependencies = [
 ]
 
 [project.scripts]
-requick = "cli:main"
+requick = "requick.cli:main"
+
+[tool.setuptools]
+packages = ["requick"]
+package-dir = { "" = "src" }
