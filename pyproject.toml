@@ -1,0 +1,13 @@
+[project]
+name = "requick"
+version = "0.1.0"
+description = "HTTP file generator for Django APIs"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "click",
+    "faker",
+    "drf-spectacular"
+]
+
+[project.scripts]
+requick = "cli:main"

@@ -1,0 +1,67 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Compiled C files
+*.so
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# SQLite & Django
+*.sqlite3
+*.log
+db.sqlite3
+.DS_Store
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# VSCode plugin build artifacts (if applicable)
+.vscode-test/
+out/
+
+# Pytest / coverage
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+.tox/
+
+# Secrets / environment
+.env
+.env.*
+*.secret.*
+*.key
+credentials.json
+
+# CLI generated files
+api.http
+*.http
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Git-specific
+*.orig
+*.rej
